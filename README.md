@@ -9,7 +9,7 @@
 
 ## Evaluation Dimensions
 <div align="center">
-<img src="assets/dimension.png">
+<img src="assets/dimension.png", width=400>
 </div>
 
 ## Leaderboard

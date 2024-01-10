@@ -38,7 +38,7 @@ python transform_format.py
 ```
 
 ## Run CharacterRM
-Now, we should download the [BaichuanCharRM](morecry/BaichuanCharRM) and use it to evaluate the generated responses. 
+Now, we should download the [BaichuanCharRM](https://huggingface.co/morecry/BaichuanCharRM) and use it to evaluate the generated responses. 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_char_rm.py 
 # results/generation_trans.jsonl + data/character_profiles.json -> results/evaluation

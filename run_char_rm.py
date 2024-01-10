@@ -8,7 +8,7 @@ max_seq_length = 4096
 
 with open("data/character_profiles.json", "r") as f:
     character_profile = json.load(f)
-with open(f"results/generation_trans_baichuan_7b.jsonl", mode='r') as f:
+with open(f"results/generation_trans.jsonl", mode='r') as f:
     records = json.load(f)
 reward_model_path = 'BaichuanCharRM/'
 

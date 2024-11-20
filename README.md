@@ -8,6 +8,8 @@
 *CharacterEval* is a Chinese benchmark designed for evaluating Role-Playing Conversational Agents (**RPCAs**). It consists of 1,785 multi-turn role-playing dialogues and 23,020 examples featuring 77 characters derived from Chinese novels and scripts. Additionally, it provides in-depth character profiles sourced from Baidu Baike. Furthermore, *CharacterEval* employs a multifaceted evaluation approach, encompassing thirteen targeted metrics across four dimensions. To facilitate evaluation, we have also developed a character-based reward model (CharacterRM) based on manual annotations. Experimental results demonstrate that the pearson correlation coefficient of CharacterRM with human significantly surpasses that of GPT-4. Please refer to our paper for more details (https://arxiv.org/abs/2401.01275). 
 
 ## News
+[2024-11-20] We upload the training data for reward model.
+
 [2024-5-31] We publish the document for manual annotation (Predefined Annotated Examples of CharacterEval.pdf), which primarily includes descriptions of each dimension and two examples (one with the highest score and one with the lowest score). We recruited a total of 12 annotators, divided into two groups, to score all the cases. For cases with disagreement, discussions are held to reach a consistent score. Additionally, these examples will be used as demonstrations for in-context learning with GPT-4.
 
 ## Evaluation Dimensions
